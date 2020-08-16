@@ -29,11 +29,7 @@
     "extends": "react-app"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [">0.2%", "not dead", "not op_mini all"],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
@@ -42,5 +38,8 @@
   },
   "devDependencies": {
     "prettier": "^2.0.2"
+  },
+  "resolutions": {
+    "**/@babel/runtime": "7.5.0"
   }
 }
